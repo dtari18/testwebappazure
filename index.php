@@ -44,10 +44,10 @@
 	   </table>
  </form>
  <?php
-    $host = "[nama_server]";
-    $user = "[nama_serveradmin]";
-    $pass = "[kata_sandi]";
-    $db = "[nama_database]";
+    $host = "dtari18webapp.database.windows.net";
+    $user = "dtari18";
+    $pass = "Tari2233";
+    $db = "dbwebapp";
     try {
         $conn = new PDO("sqlsrv:server = $host; Database = $db", $user, $pass);
         $conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
