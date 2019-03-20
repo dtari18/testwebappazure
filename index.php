@@ -82,10 +82,10 @@
 				echo "<center>";
                 echo "<h2>People who are registered:</h2>";
                 echo "<table>";
-                echo "<tr><th>Name</th>";
-                echo "<th>Email</th>";
-                echo "<th>Job</th>";
-                echo "<th>Date</th></tr>";
+                echo "<tr><th>Nama Lengkap</th>";
+                echo "<th>Usia</th>";
+                echo "<th>Kota</th>";
+                echo "<th>Tanggal</th></tr>";
                 foreach($registrants as $registrant) {
                     echo "<tr><td>".$registrant['fullname']."</td>";
                     echo "<td>".$registrant['age']."</td>";
