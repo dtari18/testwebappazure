@@ -28,7 +28,7 @@
  <tr>
  <td>Usia</td>
  <td>:</td>
- <td><input type="text" name="age" id="age"/></td>
+ <td><input type="number" name="age" id="age"/></td>
  </tr>
  <tr>
  <td>Kota</td>
